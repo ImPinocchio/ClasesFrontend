@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Registro de Usuarios</h1>
+    <form action="">
+        <fieldset>
+
+            <legend>Registro de Usuarios</legend>
+            <label for="NOMBRE:">Nombre:</label> <input placeholder="Escriba su nombre" name="nombre" id="nombre" maxlength="24" minlength="4" type="text" required>
+            <br>
+            <label for="APELLIDO:">Apellido:</label> <input placeholder="Escriba su apellido" name="apellido" id="apellido" maxlength="24" minlength="4" type="text" required>
+            <br>
+            <label for="edad">Edad:</label> <input step="5" placeholder="Escriba su edad" name="edad" id="edad" min="1" max="90" type="number" required>
+            <br>
+            <label for="fecha">Fecha de nacimiento:</label> <input name="fecha" id="fecha" type="date" required>
+            <br>
+            <label for="hora">Hora de nacimiento:</label> <input name="hora" id="hora" type="time" required>
+            <br>
+            <label for="sexo">Sexo:</label> <input name="sexo" id="sexo" type="radio" value="masculino" required>Masculino
+            <input name="sexo" id="sexo" type="radio" value="femenino" required>Femenino
+            <br>
+            <label for="color">Color favorito:</label> <input name="color" id="color" type="color" required>
+            <br>
+            <label for="">Musica Favorita</label>
+            <br>
+            <label for="">Jazz</label> <input type="checkbox">
+            <label for="">Rock</label> <input type="checkbox">
+            <label for="">Pop</label> <input type="checkbox">
+            <br>
+            <label for="">Email</label> <input placeholder="Escriba su email" name="email" id="email" type="email" required>
+            <br>
+            <label for="">Importa tu foto</label> <input type="file" name="foto" id="foto" accept="image/*">
+            <br>
+            <input type="hidden">
+            <label for="">Contraseña</label> <input placeholder="Escriba su contraseña" name="contraseña" id="contraseña" type="password" required>
+
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+</body>
+</html>
