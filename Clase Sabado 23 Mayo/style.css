@@ -1,0 +1,8 @@
+.imagen-autosize {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.espaciadofilas{
+    margin-top: 20px;
+}
